@@ -1,0 +1,6 @@
+[submodule "foundry-raffle/lib/forge-std"]
+	path = foundry-raffle/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "foundry-raffle/lib/chainlink-brownie-contracts"]
+	path = foundry-raffle/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
