@@ -1,0 +1,7 @@
+@external
+@view
+def calculateRequestPriceNative(_callbackGasLimit: uint32, _numWords: uint32) -> uint256: ...
+
+@external
+@payable
+def requestRandomWordsInNative(_callbackGasLimit: uint32, _requestConfirmations: uint16, _numWords: uint32, extraArgs: Bytes[1024]) -> uint256: ...

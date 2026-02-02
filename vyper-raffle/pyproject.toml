@@ -1,0 +1,23 @@
+[project]
+name = "vyper-raffle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "titanoboa @ git+https://github.com/vyperlang/titanoboa.git",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["helpers"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
