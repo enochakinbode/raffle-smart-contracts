@@ -22,7 +22,7 @@ This project serves as an experiment and educational resource to:
 
 ```bash
 # Clone with submodules (required for Foundry dependencies)
-git clone --recursive <repository-url>
+git clone --recursive https://github.com/enochakinbode/raffle-smart-contracts
 cd raffle
 ```
 
