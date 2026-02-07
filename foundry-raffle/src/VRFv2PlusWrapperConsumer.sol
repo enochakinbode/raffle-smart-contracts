@@ -9,7 +9,7 @@ error VRFv2PlusWrapperConsumer__WithdrawalFailed();
 
 /**
  * @title VRFv2PlusWrapperConsumer
- * @author enochlee
+ * @author enochakinbode
  * @notice An abstract contract for consuming Chainlink VRF V2 Plus using the Direct Funding model (Wrapper).
  * @dev This contract handles request tracking, ownership, and configuration for VRF consumers.
  */

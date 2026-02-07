@@ -3,7 +3,7 @@
 
 """
 @title A Simple Raffle/Lottery Contract
-@author enochlee
+@author enochakinbode
 """
 
 import interfaces.VrfV2PlusWrapper as VrfV2PlusWrapper

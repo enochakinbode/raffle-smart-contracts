@@ -19,7 +19,7 @@ error Raffle__UpkeepNotNeeded(uint256 balance, uint256 players, bool expired, bo
 
 /**
  * @title A sample Raffle Contract
- * @author enochlee
+ * @author enochakinbode
  * @notice This contract is for creating a sample raffle using Chainlink VRF and Automation.
  */
 contract Raffle is VRFv2PlusWrapperConsumer, AutomationCompatible {
